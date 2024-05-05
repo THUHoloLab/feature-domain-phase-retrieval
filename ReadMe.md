@@ -20,3 +20,8 @@ This repository contains the implementation of FAIRY for two wavefront tasks whi
 <br>
 
 ## How does it works?
+The flowchart of FAIRY is depicted in the title figure, where the loss function for wavefront recovery comprises two blocks: <br>
+(1) The first block is the feature-domain augmented likelihood block that uniquely maximizes the data likelihood in image's feature-domain.<br>
+(2) The second block is the constrain block which implements extended-HIO (eHIO), providing plug-and-play interfaces for arbitrary customized constraints.<br>
+<br>
+The feature-domain likelihood is the core of FAIRY, which is established on image's feature extracted by invertible feature-extracting operators. As the image's feature is the inherent properties of image which is more robust to image degrading than image itself.
