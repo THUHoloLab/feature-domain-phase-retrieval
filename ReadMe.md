@@ -31,7 +31,8 @@ The complex gradient given by the likelihood block and constrain block is calcul
 Given the non-convex, non-linear property of the loss function, the FAIRY bears resemblance to training a deep neural network in a supervised manner, in which the target wavefront is learned from a series of intensity observations by minimizing the loss function through complex back-propagation. Intricate feature-domain likelihood function can be tackled by FAIRY as long as the function is differentiable. Fruitful optimization/learning strategies in field of deep learning are further adapted for wavefront recovery. <br>
 <br>
 
-## Sample results
+## Results
+### Phase retrieval under unknown aberrations
 The following GIF shows how FAIRY retrieves the phase pattern of a quantitative phase target together with the aberration of the pupil function.
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "600" alt="" align = left />
