@@ -32,8 +32,7 @@ Given the non-convex, non-linear property of the loss function, the FAIRY bears 
 <br>
 
 ## Results
-<br>
-### Phase retrieval under unknown aberrations
+### 1. Phase retrieval under unknown aberrations
 The following GIF shows how FAIRY implementation of a Fourier ptychography experiment which retrieves the phase pattern of a quantitative phase target together with the aberration of the pupil function. <br>
 Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab/FAIRY/tree/main/Demo/Fourier%20ptychography) <br>
 <div align = 'center'>
@@ -43,7 +42,7 @@ Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab
 <br>
 <br>
 
-### Recovery with arbitrary constrains
+### 2. Recovery with arbitrary constrains
 We conduct experiment using single-shot phase retrieval for in-line holography to show the flexibility of FAIRY in combination of different types of constrains. <br>
 
 <br>
