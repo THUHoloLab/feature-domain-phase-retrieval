@@ -1,5 +1,3 @@
-[toc]
-
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/figure_core.png" width = "800" alt="" align = center />
 </div><br>
@@ -12,6 +10,16 @@ FAIRY is a wavefront retrieval engine that recovers for a broad class of wavefro
 <br>
 Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation. <br>
 <br>
+
+- [FAIRY: Feature-domain optimization with Arbitrary constrains for Intensity-based wavefront RecoverY](#fairy--feature-domain-optimization-with-arbitrary-constrains-for-intensity-based-wavefront-recovery)
+  * [Contents](#contents)
+  * [How does it works?](#how-does-it-works-)
+  * [Results](#results)
+    + [1. Phase retrieval under unknown aberrations](#1-phase-retrieval-under-unknown-aberrations)
+    + [2. Recovery with arbitrary constrains](#2-recovery-with-arbitrary-constrains)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Contents
 This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
