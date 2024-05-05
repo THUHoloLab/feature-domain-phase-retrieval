@@ -34,6 +34,6 @@ Given the non-convex, non-linear property of the loss function, the FAIRY bears 
 ## Sample results
 The following GIF shows how FAIRY retrieves the phase pattern of a quantitative phase target together with the aberration of the pupil function.
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/figure_core.png" width = "800" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "600" alt="" align = left />
 </div><br>
 
