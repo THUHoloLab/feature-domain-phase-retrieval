@@ -5,10 +5,10 @@
 # FAIRY: Feature-domain optimization with Arbitrary constrains for Intensity-based wavefront RecoverY
 <br>
 This is the MATLAB code for implementation of FAIRY, an optimization framework for intensity-based wavefront recovery. <br>
-
+<br>
 FAIRY is a wavefront retrieval engine that recovers for a broad class of wavefront through unique **non-convex**, high-dimensional, **feature-domain** optimization with arbitrary constrains. <br>
-
-Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation.
+<br>
+Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation.<br>
 <br>
 
 ## Contents
