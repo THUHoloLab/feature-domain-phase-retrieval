@@ -1,21 +1,20 @@
 % ========================================================================
 % Introduction
 % ========================================================================
-% This code provides a simple demonstration of compressive phase retrieval
-% via constrained complex total variation (CCTV) regularization.
-%
+% This code provides a simple demonstration of phase retrieval from inline 
+% holography via GS-algorithm, codes and data are adapted from the following
 % Reference:
 %   - Y. Gao and L. Cao, "Iterative projection meets sparsity 
 %     regularization: towards practical single-shot quantitative phase 
 %     imaging with in-line holography," Light: Advanced Manufacturing 4, 
 %     6 (2023).
 %
-% Author: Yunhui Gao (gyh21@mails.tsinghua.edu.cn)
-% =========================================================================
-%%
-% =========================================================================
-% Data generation
-% =========================================================================
+%
+% Regularizations are directly applied to the output of GS in each iteration form
+% PnP-SGD like postprocessing
+%
+% -------------------------------------------------------------------------
+
 clear;clc;
 % close all;
 
@@ -65,8 +64,8 @@ Q  = @(x) propagate(x, params.dist,params.pxsize,params.wavlen,params.method);  
 QH = @(x) propagate(x,-params.dist,params.pxsize,params.wavlen,params.method);    % Hermitian of Q: backward propagation
 C  = @(x) imgcrop(x,nullpixels);                                                  % image cropping operation (to model the finite size of the sensor area)
 CT = @(x) zeropad(x,nullpixels);                                                  % transpose of C: zero-padding operation
-% A  = @(x) C(Q(x));                                                                   % overall sampling operation
-% AH = @(x) QH(CT(x));                                                                  % Hermitian of A
+% A  = @(x) C(Q(x));                                                              % overall sampling operation
+% AH = @(x) QH(CT(x));                                                            % Hermitian of A
 A  = @(x) Q(x);                                                                   % overall sampling operation
 AH = @(x) QH(x);    
 %%
