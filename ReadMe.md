@@ -11,6 +11,7 @@ FAIRY is a wavefront retrieval engine that recovers for a broad class of wavefro
 Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation. <br>
 <br>
 
+[toc]
 
 ## Contents
 This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
