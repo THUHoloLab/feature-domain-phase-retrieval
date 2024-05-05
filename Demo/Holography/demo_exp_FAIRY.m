@@ -1,6 +1,17 @@
-% =========================================================================
-% Data generation
-% =========================================================================
+% ========================================================================
+% Introduction
+% ========================================================================
+% This code provides a simple demonstration of phase retrieval from inline 
+% holography via FAIRY, codes and data are adapted from the following
+% Reference:
+%   - Y. Gao and L. Cao, "Iterative projection meets sparsity 
+%     regularization: towards practical single-shot quantitative phase 
+%     imaging with in-line holography," Light: Advanced Manufacturing 4, 
+%     6 (2023).
+%
+% -------------------------------------------------------------------------
+
+
 clear;clc;
 % close all;
 
