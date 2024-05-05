@@ -18,9 +18,6 @@ Optimizations of the non-convex loss function are regarded as supervised-learnin
     + [1. Phase retrieval under unknown aberrations](#1-phase-retrieval-under-unknown-aberrations)
     + [2. Recovery with arbitrary constrains](#2-recovery-with-arbitrary-constrains)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## Contents
 This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
 **(1) Computational holography** <br>
