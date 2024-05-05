@@ -1,10 +1,10 @@
+[toc]
+
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/figure_core.png" width = "800" alt="" align = center />
 </div><br>
 
 # FAIRY: Feature-domain optimization with Arbitrary constrains for Intensity-based wavefront RecoverY
-[toc]
-
 <br>
 This is the MATLAB code for implementation of FAIRY, an optimization framework for intensity-based wavefront recovery. <br>
 <br>
