@@ -37,17 +37,22 @@ Given the non-convex, non-linear property of the loss function, the FAIRY bears 
 The following GIF shows how FAIRY implementation of a Fourier ptychography experiment which retrieves the phase pattern of a quantitative phase target together with the aberration of the pupil function. <br>
 Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab/FAIRY/tree/main/Demo/Fourier%20ptychography) <br>
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "600" alt="" align = left />
+<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "600" alt="" align = center />
 </div><br>
+
+<br>
 <br>
 
 ### Recovery with arbitrary constrains
 We conduct experiment using single-shot phase retrieval for in-line holography to show the flexibility of FAIRY in combination of different types of constrains. <br>
+
 <br>
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/Holograohy.png" width = "600" alt="" align = left />
+<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/Holograohy.png" width = "600" alt="" align = center />
 </div><br>
+
 <br>
+
 Single-shot phase retrieval from in-line holography. **(a)** sketch of the optical set. **(b)** Evolve of loss function for GS and FAIRY methods, and the intermediate results of FAIRY in certain iterations. **(c)** Montage of results from GS algorithm and FAIRY. **(d1)**, **(d2)** Zoomed-in pictures for area in the blue box in **(c)**. **(e)** The quantitative phase profile for **(d1)** and **(d2)** along the with line in **(d1)**. **(f1)**, **(f2)** Zoomed-in pictures for area in the green box in **(c)**, with additional results constrained by guided filter. **(g)** Comparison of the SSIM and PSNR of among three results. **(h)** The quantitative phase profile along the yellow curve in **(f1)**. <br>
 
 
