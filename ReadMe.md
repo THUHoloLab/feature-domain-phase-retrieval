@@ -1,3 +1,7 @@
+<div align = 'center'>
+<img src = "" width = "600" alt="" align = center />
+</div><br>
+
 # FAIRY: Feature-domain optimization with Arbitrary constrains for Intensity-based wavefront RecoverY
 <br>
 This is the MATLAB code for implementation of FAIRY, an optimization framework for intensity-based wavefront recovery.
