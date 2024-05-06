@@ -10,6 +10,13 @@ FAIRY is a wavefront retrieval engine that recovers for a broad class of wavefro
 <br>
 Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation. <br>
 <br>
+<br>
+
+## Contents
+This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
+**(1) Feature-domain Fourier Ptychography** <br>
+**(2) Coded Ptychography** <br>
+**(3) Computational Holography** <br>
 
 - [FAIRY: Feature-domain optimization with Arbitrary constraints for Intensity-based wavefront RecoverY](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
   * [Contents](#contents)
@@ -21,20 +28,8 @@ Optimizations of the non-convex loss function are regarded as supervised-learnin
     + [1. Phase retrieval under unknown aberrations](#1-phase-retrieval-under-unknown-aberrations)
     + [2. Coded ptychography](#2-coded-ptychography)
     + [3. Recovery with arbitrary constraints](#3-recovery-with-arbitrary-constraints)
-
-
-
 <br>
 <br>
-
-## Contents
-This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
-**(1) Feature-domain Fourier Ptychography** <br>
-**(2) Coded Ptychography** <br>
-**(3) Computational Holography** <br>
-
-<br>
-
 ## How does it work?
 The FAIRY begins with a general task for wavefront recovery, where one or a series of intensity measurements (observation, ob), $\mathbf{I}_1^{obs}, \mathbf{I}_2^{obs}, \dots \mathbf{I}_n^{obs}, \dots, \mathbf{I}_N^{obs}, (n = 1, 2, 3, \dots)$ were collected, with the corresponding image formation model (forward model)
 ```math
