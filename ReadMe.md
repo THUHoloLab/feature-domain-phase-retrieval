@@ -36,7 +36,10 @@ The FAIRY begins with a general task for wavefront recovery, where one or a seri
 ```
 <br>
 
-describing the image formation progress of the optical system. Here, $\text{Degrading}( \cdot)$ denotes arbitrary corrupt processes, such as noising, under-exposure, over-exposures pixels and other outliers, that degrades the image quality. $\mathbf{x}$ is the input of the optical system, which can be regarded as the target wavefront to be recovered. The matrix $\mathbf{A}_{n,m}$ denotes a known linear process that converts the complex amplitude $\mathbf{x}$ to the $n$-th intensity measurement. It is assumed that the final measured intensity is the summation of several intensity (a total of $M$) of incoherent waves, where $M$ can be a function of $n$. 
+describing the image formation progress of the optical system. $\text{Degrading}( \cdot)$ denotes arbitrary corrupt processes. $\mathbf{x}$ is the target wavefront to be recovered. The matrix $\mathbf{A}_{n,m}$ denotes a known linear process that converts the complex amplitude $\mathbf{x}$ to the $n$-th intensity measurement. <br>
+<br>
+
+It is assumed that the final measured intensity is the summation of several intensity (a total of $M$) of incoherent waves, where $M$ can be a function of $n$. 
 <br>
 <br>
 The flowchart of FAIRY is depicted in the title figure, where the loss function for wavefront recovery comprises two blocks: <br>
