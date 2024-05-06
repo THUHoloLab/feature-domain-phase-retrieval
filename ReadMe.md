@@ -39,9 +39,9 @@ The flowchart of FAIRY is depicted in the title figure, where the loss function 
 The **feature-domain likelihood** is the core of FAIRY, which is established on image's feature extracted by invertible feature-extracting operators. The idea is that the image's feature is the inherent properties of image which is more robust to image degrading than image itself.With the feature-domain information, the likelihood function can better utilize the data, improving the robustness of recovery algorithm. <br>
 <br>
 
-'''math
+```math
 {\mathcal{L}_{Likelihood} = \mathcal{D} \left [ \mathbf{\Theta} \mathcal{S} \left(\mathbf{I}_n^{obs}\right),\ \mathbf{\Theta}\mathcal{S}\left( \mathbf{I}_n^{pre} \right) \right ]}
-'''
+```
 
 
 ### Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints
