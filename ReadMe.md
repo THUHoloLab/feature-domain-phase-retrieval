@@ -56,7 +56,8 @@ The **feature-domain likelihood** is the core of FAIRY, which is established on 
 ```
 <br>
 
-where $\mathbf{I}_{n}$ is the model predicted intensity. $\mathcal{D}(\mathbf{x},\mathbf{y}), \mathcal{D} \ge 0$ denotes an arbitrary differentiable likelihood or fidelity function measuring the \textit{distance} between the model prediction $\mathbf{x}$ and observation $\mathbf{y}$. $\mathcal{S}(\mathbf{x})$ is a scaling operation that adjusts the dynamics range of prediction and observations. $\mathbf{\Theta}$ is an manually-selected invertible feature extraction operator. 
+where $\mathbf{I}_{n}$ is the model predicted intensity. $\mathcal{D}(\mathbf{x},\mathbf{y}), \mathcal{D} \ge 0$ denotes an arbitrary differentiable likelihood or fidelity function measuring the \textit{distance} between the model prediction $\mathbf{x}$ and observation $\mathbf{y}$. $\mathcal{S}(\mathbf{x})$ is a scaling operation that adjusts the dynamics range of prediction and observations. $\mathbf{\Theta}$ is an manually-selected invertible feature extraction operator. <br>
+<br>
 
 ### Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints
 <div align = 'center'>
@@ -87,10 +88,8 @@ Given the non-convex, non-linear property of the loss function, the **FAIRY bear
 - For information of optimizers please refer [Optimizing gradient descent](https://www.ruder.io/optimizing-gradient-descent/). <br>
 - For Python implementation of optimizers please refer [Optimizers](https://github.com/pytorch/pytorch/tree/main/torch/optim/). <br>
 - Usually, the optimizers are designed for real-valued variables and cannot be directly applied to complex-variable in our case, a little modifications to the codes of the optimizers are needed, please refer [this discussion](https://github.com/pytorch/pytorch/issues/59998).
-
-
-
-
+<br>
+<br>
 
 ## Results
 ### 1. Phase retrieval under unknown aberrations
@@ -102,7 +101,7 @@ Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab
 <br>
 <br>
 
-### 2. Phase retrieval under unknown aberrations
+### 2. Coded ptychography
 
 <br>
 <br>
