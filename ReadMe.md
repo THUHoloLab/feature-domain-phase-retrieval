@@ -55,7 +55,7 @@ In FAIRY, we optimize the likelihood using complex back-propagation, treating $\
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/ptycho.gif" width = "800" alt="" align = center />
 </div><br>
 <div align = 'center'>
-Ptychography reconstruction. Top left: FAIRY + TV; Top right: FAIRY + Second-order TV; Bottom left: FAIRY + Median filter; Bottom right: WASP.<br>
+Ptychography reconstruction. <br> Top left: FAIRY + TV; Top right: FAIRY + Second-order TV; Bottom left: FAIRY + Median filter; Bottom right: WASP.<br>
 </div><br>
 <br>
 
