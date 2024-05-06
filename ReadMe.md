@@ -30,6 +30,15 @@ This repository contains the implementation of FAIRY for two wavefront tasks whi
 <br>
 
 ## How does it works?
+The FAIRY begins with a general task for wavefront recovery, where one or a series of intensity measurements (observation, ob), $\mathbf{I}_1^{obs}, \mathbf{I}_2^{obs}, \dots \mathbf{I}_n^{obs}, \dots, \mathbf{I}_N^{obs}, (n = 1, 2, 3, \dots)$ were collected, with the corresponding image formation model (forward model)
+```math
+\mathbf{I}_n = \text{Degrading}\left( \sum_{m=1}^{M} \left| \mathbf{A}_{n,m}\mathbf{x}  \right|^2 \right)
+```
+<br>
+
+describing the image formation progress of the optical system. Here, $\text{Degrading}( \cdot)$ denotes arbitrary corrupt processes, such as noising, under-exposure, over-exposures pixels and other outliers, that degrades the image quality. $\mathbf{x}$ is the input of the optical system, which can be regarded as the target wavefront to be recovered. The matrix $\mathbf{A}_{n,m}$ denotes a known linear process that converts the complex amplitude $\mathbf{x}$ to the $n$-th intensity measurement. It is assumed that the final measured intensity is the summation of several intensity (a total of $M$) of incoherent waves, where $M$ can be a function of $n$. 
+<br>
+<br>
 The flowchart of FAIRY is depicted in the title figure, where the loss function for wavefront recovery comprises two blocks: <br>
 (1) The first block is the feature-domain augmented likelihood block that uniquely maximizes the data likelihood in image's feature-domain.<br>
 (2) The second block is the constraint block which implements extended-HIO (eHIO), providing plug-and-play interfaces for arbitrary customized constraints.<br>
