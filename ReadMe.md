@@ -40,7 +40,7 @@ The **feature-domain likelihood** is the core of FAIRY, which is established on 
 <br>
 
 '''math
-\mathcal{L}_\text{Likelihood} = \mathcal{D}\left [ \mathbf{\Theta} \mathcal{S} \left(\mathbf{I}_n^{obs}\right),\ \mathbf{\Theta}\mathcal{S}\left( \mathbf{I}_n^{pre} \right) \right ],\ \mathbb{C}^{K_{in}}\longrightarrow \mathbb{R}^{\ge 0}
+{\mathcal{L}_{Likelihood} = \mathcal{D} \left [ \mathbf{\Theta} \mathcal{S} \left(\mathbf{I}_n^{obs}\right),\ \mathbf{\Theta}\mathcal{S}\left( \mathbf{I}_n^{pre} \right) \right ]}
 '''
 
 
