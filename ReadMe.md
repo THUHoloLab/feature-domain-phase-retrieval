@@ -42,7 +42,9 @@ The **feature-domain likelihood** is the core of FAIRY, which is established on 
 ```math
 {\Large \mathcal{L}_{Likelihood} = \mathcal{D} \left [ \mathbf{\Theta} \mathcal{S} \left(\mathbf{I}_n^{obs}\right),\ \mathbf{\Theta}\mathcal{S}\left( \mathbf{I}_n^{pre} \right) \right ]}
 ```
+<br>
 
+where $\mathbf{I}_n^{pre} = \sum_{m=1}^{M} \left| \mathbf{A}_{n,m}\mathbf{x}  \right|^2$ is the model predicted intensity. $\mathcal{D}(\mathbf{x},\mathbf{y}), \mathcal{D} \ge 0$ denotes an arbitrary differentiable likelihood or fidelity function measuring the \textit{distance} between the model prediction $\mathbf{x}$ and observation $\mathbf{y}$. $\mathcal{S}(\mathbf{x})$ is a scaling operation that adjusts the dynamics range of prediction and observations. $\mathbf{\Theta}$ is an manually-selected invertible feature extraction operator. 
 
 ### Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints
 <div align = 'center'>
