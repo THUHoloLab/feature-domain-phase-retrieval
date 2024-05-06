@@ -45,6 +45,12 @@ The **feature-domain likelihood** is the core of FAIRY, which is established on 
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/eHIO.png" width = "600" alt="" align = center />
 </div><br>
 
+The FAIRY framework incorporates the extended HIO, serving as a generalized Gerchberg-Saxton (GS) algorithm. The GS alternates between object and Fourier domain constraints to minimize the error between prediction and observation. If the object-domain constraints was treated as the likelihood-optimization, it would be natural to treat the Fourier-domain constraints as the prior/penalty-optimization. <br>
+<br>
+Further, the HIO isolates the penalty-optimization, and introduces customized constraints based on physical conditions, such as area shape support or intensity dynamic range thresholding. <br>
+<br>
+In FAIRY, we optimize the likelihood using complex back-propagation, treating $\mathbf{x}^{t}$ as the input and $\mathbf{x}^{t+1}$ as the output after each gradient step. By reintroducing HIO, we insert custom constraints on $\mathbf{x}$ during gradient descent, leading to a refined penalty function that enhances the reconstruction quality.<br>
+<br>
 <br>
 
 ### Learning the wavefronts using Optimizers 
