@@ -54,7 +54,9 @@ In FAIRY, we optimize the likelihood using complex back-propagation, treating $\
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/ptycho.gif" width = "800" alt="" align = center />
 </div><br>
+<div align = 'center'>
 Ptychography reconstruction. Top left: FAIRY + TV; Top right: FAIRY + Second-order TV; Bottom left: FAIRY + Median filter; Bottom right: WASP.<br>
+</div><br>
 <br>
 
 The animation shows FAIRY on Ptychography with different denoisers including TV-denoiser, Second-order TV denoiser, and Median filter. The results are compared with [WASP](https://github.com/andyMaiden/SheffieldPtycho). 
