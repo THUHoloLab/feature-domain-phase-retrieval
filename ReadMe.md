@@ -43,7 +43,7 @@ Given the non-convex, non-linear property of the loss function, the **FAIRY bear
 
 ## Results
 ### 1. Phase retrieval under unknown aberrations
-The following GIF shows how FAIRY implementation of a Fourier ptychography experiment which retrieves the phase pattern of a quantitative phase target together with the aberration of the pupil function. <br>
+The following GIF shows how FAIRY implementation works for a Fourier ptychography experiment, which retrieves the phase pattern of a quantitative phase target together with the aberration of the pupil function. <br>
 Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab/FAIRY/tree/main/Demo/Fourier%20ptychography) <br>
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "400" alt="" align = center />
