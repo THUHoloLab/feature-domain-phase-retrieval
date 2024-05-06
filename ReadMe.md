@@ -48,8 +48,8 @@ The complex gradient given by the likelihood block and constraint block is calcu
 <br>
 Given the non-convex, non-linear property of the loss function, the **FAIRY bears resemblance to training a deep neural network in a supervised manner**, in which the target wavefront is learned from a series of intensity observations by minimizing the loss function through complex back-propagation. Intricate feature-domain likelihood function can be tackled by FAIRY as long as the function is differentiable. Fruitful optimization/learning strategies in field of deep learning are further adapted for wavefront recovery. <br>
 <br>
-For information of optimizers please refer [Optimizing gradient descent](https://www.ruder.io/optimizing-gradient-descent/).
-For Python implementation of optimizers please refer [Optimizers](https://github.com/pytorch/pytorch/tree/main/torch/optim/).
+For information of optimizers please refer [Optimizing gradient descent](https://www.ruder.io/optimizing-gradient-descent/). <br>
+For Python implementation of optimizers please refer [Optimizers](https://github.com/pytorch/pytorch/tree/main/torch/optim/). <br>
 Usually, the optimizers are designed for real-valued variables and cannot be directly applied to complex-variable in our case, a little modifications to the codes of the optimizers are needed, please refer [this discussion](https://github.com/pytorch/pytorch/issues/59998).
 
 
