@@ -23,8 +23,10 @@ Optimizations of the non-convex loss function are regarded as supervised-learnin
 
 ## Contents
 This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
-**(1) Computational holography** <br>
-**(2) Feature-domain Fourier ptychography** <br>
+**(1) Feature-domain Fourier Ptychography** <br>
+**(2) Coded Ptychography** <br>
+**(3) Computational Holography** <br>
+
 <br>
 
 ## How does it works?
@@ -46,6 +48,11 @@ Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "400" alt="" align = center />
 </div><br>
+<br>
+<br>
+
+### 1. Phase retrieval under unknown aberrations
+
 <br>
 <br>
 
