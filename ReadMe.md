@@ -14,9 +14,15 @@ Optimizations of the non-convex loss function are regarded as supervised-learnin
 - [FAIRY: Feature-domain optimization with Arbitrary constraints for Intensity-based wavefront RecoverY](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
   * [Contents](#contents)
   * [How does it works?](#how-does-it-works-)
+    + [Feature-domain likelihood](#feature-domain-likelihood)
+    + [Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints](#extended-hybrid-input-output--ehio--modulus-for-plug-and-play-constraints)
+    + [Learning the wavefronts using Optimizers](#learning-the-wavefronts-using-optimizers)
   * [Results](#results)
     + [1. Phase retrieval under unknown aberrations](#1-phase-retrieval-under-unknown-aberrations)
-    + [2. Recovery with arbitrary constraints](#2-recovery-with-arbitrary-constraints)
+    + [2. Coded ptychography](#2-coded-ptychography)
+    + [3. Recovery with arbitrary constraints](#3-recovery-with-arbitrary-constraints)
+
+
 
 <br>
 <br>
