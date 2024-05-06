@@ -41,6 +41,10 @@ The **feature-domain likelihood** is the core of FAIRY, which is established on 
 
 
 ### Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/eHIO.png" width = "600" alt="" align = center />
+</div><br>
+
 <br>
 
 ### Learning the wavefronts using Optimizers 
