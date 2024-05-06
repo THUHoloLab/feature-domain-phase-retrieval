@@ -13,7 +13,7 @@ Optimizations of the non-convex loss function are regarded as supervised-learnin
 
 - [FAIRY: Feature-domain optimization with Arbitrary constraints for Intensity-based wavefront RecoverY](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
   * [Contents](#contents)
-  * [How does it works?](#how-does-it-works-)
+  * [How does it work?](#how-does-it-work-)
     + [Feature-domain likelihood](#feature-domain-likelihood)
     + [Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints](#extended-hybrid-input-output--ehio--modulus-for-plug-and-play-constraints)
     + [Learning the wavefronts using Optimizers](#learning-the-wavefronts-using-optimizers)
@@ -35,7 +35,7 @@ This repository contains the implementation of FAIRY for two wavefront tasks whi
 
 <br>
 
-## How does it works?
+## How does it work?
 The FAIRY begins with a general task for wavefront recovery, where one or a series of intensity measurements (observation, ob), $\mathbf{I}_1^{obs}, \mathbf{I}_2^{obs}, \dots \mathbf{I}_n^{obs}, \dots, \mathbf{I}_N^{obs}, (n = 1, 2, 3, \dots)$ were collected, with the corresponding image formation model (forward model)
 ```math
 \mathbf{I}_n = \text{Degrading}\left( \sum_{m=1}^{M} \left| \mathbf{A}_{n,m}\mathbf{x}  \right|^2 \right)
