@@ -51,12 +51,12 @@ Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab
 <br>
 <br>
 
-### 1. Phase retrieval under unknown aberrations
+### 2. Phase retrieval under unknown aberrations
 
 <br>
 <br>
 
-### 2. Recovery with arbitrary constrains
+### 3. Recovery with arbitrary constrains
 We conduct experiment using single-shot phase retrieval for in-line holography to show the flexibility of FAIRY in combination of different types of constrains. <br>
 
 <br>
