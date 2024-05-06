@@ -103,7 +103,11 @@ Sample codes and data are available in [FAIRY-FPM](https://github.com/THUHoloLab
 <br>
 
 ### 2. Coded ptychography
-
+The FAIRY can be applied to Coded ptychography as well. Data can be found in [DATA](https://zenodo.org/records/7492626).<br>
+<br>
+Please refer this [PAPER](https://www.nature.com/articles/s41596-023-00829-4) for the implementation of codes and data.<br>
+<br>
+For FAIRY, the user needs first save all image file to .tif format in a foler named 'raw_data', then you can select a specific area for reconstruction.
 <br>
 <br>
 
