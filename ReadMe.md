@@ -2,18 +2,18 @@
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/figure_core.png" width = "800" alt="" align = center />
 </div><br>
 
-# FAIRY: Feature-domain optimization with Arbitrary constraints for Intensity-based wavefront RecoverY
+# Perceptual phase retrieval: ascension from image domains to feature domains
 <br>
-This is the MATLAB code for implementation of FAIRY, an optimization framework for intensity-based wavefront recovery. <br>
+This is the MATLAB code for implementation of PPR, an optimization framework for intensity-based wavefront recovery. <br>
 <br>
-FAIRY is a wavefront retrieval engine that recovers for a broad class of wavefront through unique non-convex, high-dimensional, feature-domain optimization with arbitrary constrains. <br>
+Perceptual phase retrieval is a wavefront retrieval engine that recovers for a broad class of wavefront through unique non-convex, high-dimensional, feature-domain optimization with arbitrary constrains. <br>
 <br>
 Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation. <br>
 <br>
 <br>
 
 ## Contents
-This repository contains the implementation of FAIRY for two wavefront tasks which are <br>
+This repository contains the implementation of PPR for two wavefront tasks which are <br>
 **(1) Feature-domain Fourier Ptychography** <br>
 **(2) Coded Ptychography** <br>
 **(3) Computational Holography** <br>
@@ -31,7 +31,7 @@ This repository contains the implementation of FAIRY for two wavefront tasks whi
 <br>
 <br>
 ## How does it work?
-The FAIRY begins with a general task for wavefront recovery, where one or a series of intensity measurements (observation, ob), $\mathbf{I}_1^{obs}, \mathbf{I}_2^{obs}, \dots \mathbf{I}_n^{obs}, \dots, \mathbf{I}_N^{obs}, (n = 1, 2, 3, \dots)$ were collected, with the corresponding image formation model (forward model)
+The PPR begins with a general task for wavefront recovery, where one or a series of intensity measurements (observation, ob), $\mathbf{I}_1^{obs}, \mathbf{I}_2^{obs}, \dots \mathbf{I}_n^{obs}, \dots, \mathbf{I}_N^{obs}, (n = 1, 2, 3, \dots)$ were collected, with the corresponding image formation model (forward model)
 ```math
 \mathbf{I}_n = \text{Degrading}\left( \sum_{m=1}^{M} \left| \mathbf{A}_{n,m}\mathbf{x}  \right|^2 \right)
 ```
@@ -43,13 +43,13 @@ describing the image formation progress of the optical system. $\text{Degrading}
 It is assumed that the final measured intensity is the summation of several intensity (a total of $M$) of incoherent waves, where $M$ can be a function of $n$. 
 <br>
 <br>
-The flowchart of FAIRY is depicted in the title figure, where the loss function for wavefront recovery comprises two blocks: <br>
+The flowchart of PPR is depicted in the title figure, where the loss function for wavefront recovery comprises two blocks: <br>
 (1) The first block is the feature-domain augmented likelihood block that uniquely maximizes the data likelihood in image's feature-domain.<br>
 (2) The second block is the constraint block which implements extended-HIO (eHIO), providing plug-and-play interfaces for arbitrary customized constraints.<br>
 <br>
 
 ### Feature-domain likelihood
-The **feature-domain likelihood** is the core of FAIRY, which is established on image's feature extracted by invertible feature-extracting operators. The idea is that the image's feature is the inherent properties of image which is more robust to image degrading than image itself.With the feature-domain information, the likelihood function can better utilize the data, improving the robustness of recovery algorithm. <br>
+The **feature-domain likelihood** is the core of PPR, which is established on image's feature extracted by invertible feature-extracting operators. The idea is that the image's feature is the inherent properties of image which is more robust to image degrading than image itself.With the feature-domain information, the likelihood function can better utilize the data, improving the robustness of recovery algorithm. <br>
 <br>
 
 ```math
