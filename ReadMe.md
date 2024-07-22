@@ -18,7 +18,7 @@ This repository contains the implementation of PPR for two wavefront tasks which
 **(2) Coded Ptychography** <br>
 **(3) Computational Holography** <br>
 
-- [FAIRY: Feature-domain optimization with Arbitrary constraints for Intensity-based wavefront RecoverY](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
+- [Perceptual phase retrieval: ascension from image domains to feature domains](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
   * [Contents](#contents)
   * [How does it work?](#how-does-it-work-)
     + [Feature-domain likelihood](#feature-domain-likelihood)
