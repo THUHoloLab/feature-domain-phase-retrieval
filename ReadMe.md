@@ -114,7 +114,7 @@ We conduct experiment using single-shot phase retrieval for in-line holography t
 
 <br>
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/Holograohy.png" width = "700" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/perceptural-phase-retrieval/blob/main/Demo/resource/Holography.png" width = "700" alt="" align = center />
 </div><br>
 
 <br>
