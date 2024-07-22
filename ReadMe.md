@@ -1,5 +1,5 @@
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/figure_core.png" width = "800" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/perceptural-phase-retrieval/blob/main/Demo/resource/first-image-1.png" width = "800" alt="" align = center />
 </div><br>
 
 # Perceptual phase retrieval: ascension from image domains to feature domains
