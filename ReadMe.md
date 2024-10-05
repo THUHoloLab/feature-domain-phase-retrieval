@@ -2,11 +2,11 @@
 <img src = "https://github.com/THUHoloLab/perceptural-phase-retrieval/blob/main/Demo/resource/first-image-1.png" width = "800" alt="" align = center />
 </div><br>
 
-# Perceptual phase retrieval: ascension from image domains to feature domains
+# Feature-domain phase retrieval: ascension from image domains to feature domains
 <br>
 This is the MATLAB code for implementation of PPR, an optimization framework for intensity-based wavefront recovery. <br>
 <br>
-Perceptual phase retrieval is a wavefront retrieval engine that recovers for a broad class of wavefront through unique non-convex, high-dimensional, feature-domain optimization with arbitrary constrains. <br>
+Feature-domain phase retrieval is a wavefront retrieval engine that recovers for a broad class of wavefront through unique non-convex, high-dimensional, feature-domain optimization with arbitrary constrains. <br>
 <br>
 Optimizations of the non-convex loss function are regarded as supervised-learning, solved by complex-backpropagation. <br>
 <br>
@@ -18,7 +18,7 @@ This repository contains the implementation of PPR for two wavefront tasks which
 **(2) Coded Ptychography** <br>
 **(3) Computational Holography** <br>
 
-- [Perceptual phase retrieval: ascension from image domains to feature domains](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
+- [Feature-domain phase retrieval: ascension from image domains to feature domains](#fairy--feature-domain-optimization-with-arbitrary-constraints-for-intensity-based-wavefront-recovery)
   * [Contents](#contents)
   * [How does it work?](#how-does-it-work-)
     + [Feature-domain likelihood](#feature-domain-likelihood)
