@@ -34,6 +34,7 @@ This repository contains the implementation of FD-PR for two wavefront tasks whi
     + [3. Recovery with arbitrary constraints](#3-recovery-with-arbitrary-constraints)
 <br>
 <br>
+
 ## How does it work?
 The FD-PR begins with a general task for wavefront recovery, where one or a series of intensity measurements (observation, ob), $\mathbf{I}_1^{obs}, \mathbf{I}_2^{obs}, \dots \mathbf{I}_n^{obs}, \dots, \mathbf{I}_N^{obs}, (n = 1, 2, 3, \dots)$ were collected, with the corresponding image formation model (forward model)
 ```math
