@@ -1,4 +1,4 @@
-%% FAIRY recovery for FPM experiment with unknown defocus
+%% FD-PR recovery for FPM experiment with unknown defocus
 
 clear
 clc
