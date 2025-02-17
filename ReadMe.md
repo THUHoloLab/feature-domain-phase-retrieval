@@ -14,8 +14,8 @@ Optimizations of the non-convex loss function are regarded as supervised learnin
 
 ## News
 - **2025/01/30:**  :sparkles: Our paper has been accepted by _**Advanced Science**_! <br>
-- **2024/09/24:** 🔥 We released our MATLAB codes! <br>
-- 
+- **2024/05/05:** 🔥 We released our MATLAB codes! <br>
+
 ## Contents
 This repository contains the implementation of FD-PR for two wavefront tasks which are <br>
 **(1) Feature-domain Fourier Ptychography** <br>
