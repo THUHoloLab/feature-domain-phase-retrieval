@@ -4,7 +4,7 @@
 
 # Feature-domain phase retrieval: ascension from image domains to feature domains
 <br>
-This is the MATLAB code for the implementation of FD-PR, an optimization framework for intensity-based wavefront recovery. <br>
+This is the MATLAB code for the implementation of feature-domain phase retrieval (FD-PR), an optimization framework for intensity-based wavefront recovery. <br>
 <br>
 Feature-domain phase retrieval is a wavefront retrieval engine that recovers for a broad class of wavefront through unique non-convex, high-dimensional, feature-domain optimization with arbitrary constrains. <br>
 <br>
