@@ -111,7 +111,7 @@ The FD-PR can be applied to Coded ptychography as well. Data can be found in [DA
 Please refer this [PAPER](https://www.nature.com/articles/s41596-023-00829-4) for the implementation of codes and data.<br>
 <br>
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/Coded-Ptyho.gif" width = "600" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/Coded-Ptyho.gif" width = "800" alt="" align = center />
 </div><br>
 
 ### 3. Recovery with arbitrary constraints
