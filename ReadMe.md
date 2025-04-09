@@ -10,7 +10,6 @@ Feature-domain phase retrieval is a wavefront retrieval engine that recovers for
 <br>
 Optimizations of the non-convex loss function are regarded as supervised learning, solved by complex backpropagation. <br>
 <br>
-<br>
 
 ## News
 - **2025/03/31:**  :sparkles: Our paper has been selected to be featured on the _**Inside Front Cover**_  <br>
@@ -33,7 +32,6 @@ This repository contains the implementation of FD-PR for two wavefront tasks whi
     + [1. Phase retrieval under unknown aberrations](#1-phase-retrieval-under-unknown-aberrations)
     + [2. Coded ptychography](#2-coded-ptychography)
     + [3. Recovery with arbitrary constraints](#3-recovery-with-arbitrary-constraints)
-<br>
 <br>
 
 ## How does it work?
