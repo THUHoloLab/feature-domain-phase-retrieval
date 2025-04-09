@@ -85,9 +85,7 @@ Ptychography reconstruction. <br> Top left: FD-PR + TV; Top right: FD-PR + Secon
 The animation shows FD-PR on Ptychography with different denoisers including TV-denoiser, Second-order TV denoiser, and Median filter. The results are compared with [WASP](https://github.com/andyMaiden/SheffieldPtycho). 
 
 ### Learning the wavefronts using Optimizers 
-The complex gradient given by the likelihood block and constraint block is calculated based on current estimation of model parameters, and is further managed by the optimizer to update the parameters and accelerate the gradient descent progress, just like the way when training a neural network. <br>
-<br>
-Given the non-convex, non-linear property of the loss function, the **FD-PR bears resemblance to training a deep neural network in a supervised manner**, in which the target wavefront is learned from a series of intensity observations by minimizing the loss function through complex back-propagation. Intricate feature-domain likelihood function can be tackled by FD-PR as long as the function is differentiable. Fruitful optimization/learning strategies in field of deep learning are further adapted for wavefront recovery. <br>
+The **FD-PR bears resemblance to training a deep neural network in a supervised manner**, in which the target wavefront is learned from a series of intensity observations by minimizing the loss function through complex back-propagation. <br>
 <br>
 - For information of optimizers please refer [Optimizing gradient descent](https://www.ruder.io/optimizing-gradient-descent/). <br>
 - For Python implementation of optimizers please refer [Optimizers](https://github.com/pytorch/pytorch/tree/main/torch/optim/). <br>
