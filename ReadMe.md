@@ -13,6 +13,7 @@ Optimizations of the non-convex loss function are regarded as supervised learnin
 <br>
 
 ## News
+- **2025/03/31:**  :sparkles: Our paper has been selected to be featured on the _**Inside Front Cover**_  <br>
 - **2025/01/30:**  :sparkles: Our paper has been accepted by _**Advanced Science**_! <br>
 - **2024/05/05:** 🔥 We released our MATLAB codes! <br>
 
