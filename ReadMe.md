@@ -104,8 +104,6 @@ Sample codes and data are available in [FD-PR-FPM](https://github.com/THUHoloLab
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/newfile_record-min.gif" width = "400" alt="" align = center />
 </div><br>
-<br>
-<br>
 
 ### 2. Coded ptychography
 The FD-PR can be applied to Coded ptychography as well. Data can be found in [DATA](https://zenodo.org/records/7492626). For FD-PR, the user needs first save all image file to .tif format in a foler named 'raw_data', then you can select a specific area for reconstruction. <br>
@@ -121,7 +119,7 @@ We conduct experiment using single-shot phase retrieval for in-line holography t
 
 <br>
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/perceptural-phase-retrieval/blob/main/Demo/resource/Holography.png" width = "700" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/Hologram.gif" width = "700" alt="" align = center />
 </div><br>
 
 <br>
