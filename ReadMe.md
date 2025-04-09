@@ -1,8 +1,8 @@
+# Feature-domain phase retrieval: ascension from image domains to feature domains
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/english.gif" width = "500" alt="" align = center />
 </div><br>
 
-# Feature-domain phase retrieval: ascension from image domains to feature domains
 <br>
 This is the MATLAB code for the implementation of feature-domain phase retrieval (FD-PR), an optimization framework for intensity-based wavefront recovery. <br>
 <br>
