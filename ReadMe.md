@@ -1,6 +1,6 @@
 # Feature-domain phase retrieval: ascension from image domains to feature domains
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/english.gif" width = "500" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/english.gif" width = "650" alt="" align = center />
 </div><br>
 
 <br>
