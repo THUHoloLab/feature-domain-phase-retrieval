@@ -115,15 +115,11 @@ Please refer this [PAPER](https://www.nature.com/articles/s41596-023-00829-4) fo
 </div><br>
 
 ### 3. Recovery with arbitrary constraints
-We conduct experiment using single-shot phase retrieval for in-line holography to show the flexibility of FD-PR in combination of different types of constrains. <br>
+The FD-PR can achieve twin-image free inline holography by using different denoising constraints. <br>
 
 <br>
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/feature-domain-phase-retrieval/blob/main/Demo/resource/Hologram.gif" width = "700" alt="" align = center />
 </div><br>
-
-<br>
-
-Single-shot phase retrieval from in-line holography. **(a)** sketch of the optical set. **(b)** Evolve of loss function for GS and FD-PR methods, and the intermediate results of FD-PR in certain iterations. **(c)** Montage of results from GS algorithm and FD-PR. **(d1)**, **(d2)** Zoomed-in pictures for area in the blue box in **(c)**. **(e)** The quantitative phase profile for **(d1)** and **(d2)** along the with line in **(d1)**. **(f1)**, **(f2)** Zoomed-in pictures for area in the green box in **(c)**, with additional results constrained by guided filter. **(g)** Comparison of the SSIM and PSNR of among three results. **(h)** The quantitative phase profile along the yellow curve in **(f1)**. <br>
 
 
