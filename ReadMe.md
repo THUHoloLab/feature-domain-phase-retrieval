@@ -67,17 +67,15 @@ where $\mathbf{I}_{n}$ is the model predicted intensity. $\mathcal{D}(\mathbf{x}
 
 ### Extended Hybrid input-output (eHIO) modulus for Plug-and-Play constraints
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/eHIO.png" width = "600" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/eHIO.png" width = "500" alt="" align = center />
 </div><br>
 
 The FD-PR framework incorporates the extended HIO, serving as a generalized Gerchberg-Saxton (GS) algorithm. The GS alternates between object and Fourier domain constraints to minimize the error between prediction and observation. If the object-domain constraints was treated as the likelihood-optimization, it would be natural to treat the Fourier-domain constraints as the prior/penalty-optimization. <br>
-<br>
-Further, the HIO isolates the penalty-optimization, and introduces customized constraints based on physical conditions, such as area shape support or intensity dynamic range thresholding. <br>
-<br>
+
 In FD-PR, we optimize the likelihood using complex back-propagation, treating $\mathbf{x}^{t}$ as the input and $\mathbf{x}^{t+1}$ as the output after each gradient step. By reintroducing HIO, we insert custom constraints on $\mathbf{x}$ during gradient descent, leading to a refined penalty function that enhances the reconstruction quality.<br>
 <br>
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/ptycho.gif" width = "800" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/FAIRY/blob/main/Demo/resource/ptycho.gif" width = "700" alt="" align = center />
 </div><br>
 <div align = 'center'>
 Ptychography reconstruction. <br> Top left: FD-PR + TV; Top right: FD-PR + Second-order TV; Bottom left: FD-PR + Median filter; Bottom right: WASP.<br>
